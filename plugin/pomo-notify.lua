@@ -3,5 +3,5 @@ if vim.g.loaded_pomo_notify then
 end
 vim.g.loaded_pomo_notify = true
 
--- Carica automaticamente il plugin
-require("pomo_notify").setup()
+-- Caricaautomaticamente il plugin
+require("pomo-notify").setup()
