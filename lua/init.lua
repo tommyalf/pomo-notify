@@ -39,7 +39,7 @@ function M.setup(opts)
 			if opts.use_terminal_beep then
 				vim.cmd("echo '\\a'")
 			elseif opts.sound then
-				os.execute(opts.sound_cmd)
+				vim.fn.system(opts.sound_cmd)
 			end
 		end,
 	})
